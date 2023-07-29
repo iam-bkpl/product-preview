@@ -2,8 +2,8 @@ import product_image_mobile from "./assets/images/image-product-mobile.jpg";
 import product_image_desktop from "./assets/images/image-product-desktop.jpg";
 const App = () => {
   return (
-    <div className="flex justify-center items-center h-[100vh]">
-      <div className="   m-5 rounded-xl max-w-sm flex flex-col lg:flex-row">
+    <div className="flex justify-center items-center h-screen flex-1">
+      <div className="  m-5 rounded-xl max-w-sm flex flex-col lg:flex-row">
         <img
           src={product_image_mobile}
           alt="product_image"
@@ -15,7 +15,7 @@ const App = () => {
           className="hidden lg:block rounded-t-xl lg:rounded-none lg:rounded-l-lg bg-cover "
         />
         <div className="p-5 bg-neutral-white lg:rounded-r-xl space-y-2">
-          <p className=" uppercase text-neutral-dark-grayish-blue tracking-wide   font-extralight ">
+          <p className="uppercase text-neutral-dark-grayish-blue tracking-wide font-light">
             Perfume
           </p>
           <h1 className="font-weight-[700] font-extrabold text-3xl font-fraunces-700 ">
@@ -31,7 +31,7 @@ const App = () => {
             <span className=" text-primary-dark-cyan font-bold text-3xl font-fraunces-700">
               $149.99
             </span>
-            <span className=" text-neutral-dark-grayish-blue pl-4 text-ellipsis line-through">
+            <span className=" text-neutral-dark-grayish-blue pl-4 line-through">
               $169.99
             </span>
           </p>
